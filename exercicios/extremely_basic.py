@@ -1,2 +1,4 @@
-print("testando")
-print("teste zabuza momochi demonio da mamada oculta")
+a = input()
+b = input()
+
+print(f"X = {a + b}")

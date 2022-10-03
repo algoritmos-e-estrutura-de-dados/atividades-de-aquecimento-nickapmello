@@ -1,4 +1,4 @@
-a = input()
-b = input()
+A = int(input())
+B = int(input())
 
-print(f"X = {a + b}")
+print("X =", A+B)

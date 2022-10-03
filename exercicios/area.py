@@ -1,0 +1,16 @@
+a,b,c = input().split(" ")
+a = float(a)
+b = float(b)
+c = float(c)
+
+triangulo = round((a*c)/2,3)
+circulo = round((c**2)*3.14159,3)
+trapezio = round(((a+b)*c)/2,3)
+quadrado = round(b**2,3)
+retangulo = round(a*b,3)
+
+print("TRIANGULO: " +format(triangulo))
+print("CIRCULO: " +format(circulo))
+print("TRAPEZIO: " +format(trapezio))
+print("QUADRADO: " +format(quadrado))
+print("RETANGULO: " +format(retangulo))
